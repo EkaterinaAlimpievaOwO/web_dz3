@@ -1,7 +1,7 @@
 const temperature_c = parseFloat(prompt('Введите температуру по цельсию:'));
 
 
-alert(c_to_f(temperature_c));
+alert(`Цельсий: ${temperature_c}, Фаренгейт: ${c_to_f(temperature_c)}`);
 
 
 function c_to_f(temperature_C) {
